@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import RazorpayButton from './RazorpayButton';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
           Hello amplify . How are you.
         </a>
       </header>
+      <div>
+        <RazorpayButton />
+      </div>
     </div>
   );
 }
