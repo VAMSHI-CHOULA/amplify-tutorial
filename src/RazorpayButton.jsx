@@ -76,8 +76,8 @@ const BASE_URL =
       },
     };
 
-    var rzp1 = new Razorpay(options);
-rzp1.on('payment.failed', function (response){
+    var rzp1 = new window.Razorpay(options);
+      rzp1.on('payment.failed', function (response){
         alert(response.error.code);
         alert(response.error.description);
         alert(response.error.source);
