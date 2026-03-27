@@ -94,7 +94,7 @@ rzp1.on('payment.failed', function (response){
 
   return (
     <div className="flex">
-      <div className="mt-4 ml-4">
+      <div className="mt-4 ml-4 ">
         <button
           onClick={handlePayment}
           variant="default"

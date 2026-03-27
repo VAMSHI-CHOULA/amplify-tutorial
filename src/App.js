@@ -19,7 +19,7 @@ function App() {
           Hello amplify . How are you.
         </a>
       </header>
-      <div>
+      <div style={{marginTop:"20px", marginBottom:"20px"}}>
         <RazorpayButton />
       </div>
     </div>
