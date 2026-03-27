@@ -105,6 +105,9 @@ rzp1.on('payment.failed', function (response){
       </div>
     </div>
   );
+
+
+  
 };
 
 export default RazorpayButton;
