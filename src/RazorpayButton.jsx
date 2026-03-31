@@ -48,3 +48,5 @@ const RazorpayButton = () => {
     </div>
   );
 };
+
+export default RazorpayButton;
